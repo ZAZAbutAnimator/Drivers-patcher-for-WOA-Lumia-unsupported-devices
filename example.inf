@@ -1,0 +1,12 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=USB
+ClassGuid={36fc9e60-c465-11cf-8056-444553540000}
+Provider=%ProviderName%
+ExcludeFromSelect=*
+
+[Manufacturer]
+%MfgName%=Standard,NT
+
+[Standard.NT]
+%DeviceDesc%=USB_Install, USB\VID_1234&PID_5678
